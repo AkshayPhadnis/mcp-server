@@ -29,7 +29,7 @@ async def chat(request: ChatRequest):
     Model N says: {modeln_data}
     """
 
-    response = handle_llm(user_message, context)
+    response = handle_llm(user_message)
 
 
 
