@@ -34,4 +34,4 @@ async def chat(request: ChatRequest):
 
 
 
-    return {"response": response}
+    return {"response": response+"sf data: " + sf_data}
